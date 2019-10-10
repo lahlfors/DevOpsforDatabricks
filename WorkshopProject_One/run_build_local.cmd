@@ -4,11 +4,11 @@ docker rm mlbuild
 if not exist "C:\ml_temp\artifacts" mkdir C:\ml_temp\artifacts
 
 :: REPLACE TOKENS IN dockerfile
-set ml_subscription_id=""
-set ml_resource_group=""
-set ml_workspace_name=""
-set ml_alg_state=""
-set ml_alg_author=""
+set ml_subscription_id="deb5499f-5958-40c3-bc4e-6045d9bc3e12"
+set ml_resource_group="laah-db-dev"
+set ml_workspace_name="laah-db-ml-dev"
+set ml_alg_state="dev"
+set ml_alg_author="dev"
 set ml_model_name=""
 set ml_image_name=""
 
